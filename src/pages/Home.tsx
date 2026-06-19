@@ -53,14 +53,12 @@ export default function Home() {
               >
                 <div className="flex flex-col items-center flex-grow">
                   {t.image && (
-                    <div className="w-16 h-16 rounded-full overflow-hidden mb-6 border-2 border-brand-gold/10 group-hover:border-brand-gold/30 transition-colors">
-                      <img 
-                        src={t.image} 
-                        alt={t.author} 
-                        className="w-full h-full object-cover"
-                      />
-                    </div>
-                  )}
+<div className="w-16 h-16 rounded-full bg-brand-offwhite border border-brand-gold/20 flex items-center justify-center mx-auto mb-6">
+              <span className="font-serif text-xl text-brand-gold">
+                {t.author.split(' ').map((name) => name[0]).slice(0, 2).join('')}
+              </span>
+            </div>
+)}
                   <div className="flex gap-1 mb-6">
                     {[...Array(5)].map((_, i) => (
                       <Star key={i} size={10} className="fill-brand-gold text-brand-gold" />
