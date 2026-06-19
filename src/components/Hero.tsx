@@ -40,7 +40,7 @@ export const Hero = () => {
           className="font-serif text-5xl sm:text-6xl md:text-8xl lg:text-9xl text-brand-black mb-8 leading-[1.05] tracking-tight"
         >
           Beleza Natural <br />
-          <span className="italic font-light text-brand-gold font-serif">de alto padrão.</span>
+          <span className="italic font-light text-brand-black font-serif">de alto padrão.</span>
         </motion.h1>
 
         <motion.p
