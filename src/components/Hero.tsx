@@ -1,5 +1,6 @@
 import { motion } from 'motion/react';
 import { ArrowRight, Sparkles } from 'lucide-react';
+import heroBg from '../assets/images/luxury_aesthetics_background_1781797851731.jpg';
 
 export const Hero = () => {
   return (
@@ -7,9 +8,9 @@ export const Hero = () => {
       {/* Premium Ambient Background with Warm Gold Cinematic Overlay */}
       <div className="absolute inset-0 z-0 bg-brand-offwhite">
         <img 
-          src="/src/assets/images/luxury_aesthetics_background_1781797851731.jpg" 
-          alt="Beauty Glow Premium Aesthetic Studio"
-          referrerPolicy="no-referrer"
+          src={heroBg} 
+          alt=""
+          aria-hidden="true"
           className="w-full h-full object-cover opacity-85 scale-100 transition-transform duration-[4000ms] ease-out object-center"
         />
         {/* Soft, glowing luxury filters for maximum premium mood */}
