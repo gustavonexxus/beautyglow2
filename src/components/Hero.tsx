@@ -11,11 +11,11 @@ export const Hero = () => {
           src={heroBg} 
           alt=""
           aria-hidden="true"
-          className="w-full h-full object-cover opacity-85 scale-100 transition-transform duration-[4000ms] ease-out object-center"
+          className="w-full h-full object-cover opacity-100 scale-100 transition-transform duration-[4000ms] ease-out object-center"
         />
         {/* Soft, glowing luxury filters for maximum premium mood */}
-        <div className="absolute inset-0 bg-gradient-to-r from-brand-offwhite/90 via-brand-offwhite/60 to-brand-offwhite/30 mix-blend-normal" />
-        <div className="absolute inset-0 bg-gradient-to-t from-brand-offwhite via-transparent to-brand-offwhite/40" />
+        <div className="absolute inset-0 bg-gradient-to-r from-brand-offwhite/55 via-brand-offwhite/35 to-brand-offwhite/15 mix-blend-normal" />
+        <div className="absolute inset-0 bg-gradient-to-t from-brand-offwhite/60 via-transparent to-brand-offwhite/20" />
         {/* Ambient gold-colored radial glow in the center */}
         <div className="absolute inset-0 bg-[radial-gradient(circle_at_center,rgba(197,160,89,0.15)_0%,transparent_70%)]" />
       </div>
